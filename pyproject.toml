@@ -1,0 +1,14 @@
+[project]
+name = "package4ej"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["rich"]
+
+[project.scripts]
+yes_hello_who_is_this = "package4ej.cli:hello"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
